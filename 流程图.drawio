@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T12:17:29.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="QJcZoW73OMK-BqDBGeCt" version="24.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-24T12:50:01.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="-f_A4O8-zF86frRXv3cN" version="24.0.8" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1516" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -543,42 +543,50 @@
           <mxGeometry x="554" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-15" value="战斗失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2MlDzPftchHG3P4DsJH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-19" target="d2MlDzPftchHG3P4DsJH-20">
+        <mxCell id="d2MlDzPftchHG3P4DsJH-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-19" target="d2MlDzPftchHG3P4DsJH-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2MlDzPftchHG3P4DsJH-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d2MlDzPftchHG3P4DsJH-26">
-          <mxGeometry x="0.2133" y="-1" relative="1" as="geometry">
+        <mxCell id="d2MlDzPftchHG3P4DsJH-44" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d2MlDzPftchHG3P4DsJH-43">
+          <mxGeometry x="-0.0909" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d2MlDzPftchHG3P4DsJH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="620" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="d2MlDzPftchHG3P4DsJH-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-19" target="d2MlDzPftchHG3P4DsJH-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2MlDzPftchHG3P4DsJH-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d2MlDzPftchHG3P4DsJH-38">
-          <mxGeometry x="-0.2482" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="d2MlDzPftchHG3P4DsJH-47" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d2MlDzPftchHG3P4DsJH-46">
+          <mxGeometry x="0.32" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-19" value="基地是否血量为0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="544" y="580" width="140" height="80" as="geometry" />
+          <mxGeometry x="544" y="710" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-20" target="d2MlDzPftchHG3P4DsJH-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d2MlDzPftchHG3P4DsJH-24">
           <mxGeometry x="0.234" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2MlDzPftchHG3P4DsJH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="614" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2MlDzPftchHG3P4DsJH-42" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d2MlDzPftchHG3P4DsJH-41">
+          <mxGeometry x="-0.077" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-20" value="怪物是否全部被消灭" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="541" y="710" width="146" height="80" as="geometry" />
+          <mxGeometry x="541" y="585" width="146" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-21" value="战斗胜利" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="595" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-31" target="d2MlDzPftchHG3P4DsJH-32">
           <mxGeometry relative="1" as="geometry" />
@@ -592,11 +600,14 @@
         <mxCell id="d2MlDzPftchHG3P4DsJH-32" value="设置角色进攻方向" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="554" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2MlDzPftchHG3P4DsJH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-33" target="d2MlDzPftchHG3P4DsJH-19">
+        <mxCell id="d2MlDzPftchHG3P4DsJH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d2MlDzPftchHG3P4DsJH-33" target="d2MlDzPftchHG3P4DsJH-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d2MlDzPftchHG3P4DsJH-33" value="自动战斗" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="554" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2MlDzPftchHG3P4DsJH-45" value="战斗胜利" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
